@@ -10,7 +10,7 @@ public abstract class Employee extends Person {
     private LocalDate startDate;
     private double salary;
 
-    public Employee(int id, LocalDate startDate, double salary) {
+    public Employee() {
         this.id = id;
         this.startDate = startDate;
         this.salary = salary;
