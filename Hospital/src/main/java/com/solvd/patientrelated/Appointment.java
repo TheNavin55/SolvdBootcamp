@@ -1,5 +1,6 @@
 package com.solvd.patientrelated;
 
+import com.solvd.generalpurpose.Hospital;
 import com.solvd.staff.Doctor;
 
 import java.math.BigDecimal;
@@ -13,7 +14,7 @@ public class Appointment {
     private Patient patient;
     private BigDecimal cost;
 
-    public Appointment() {
+    public Appointment(Hospital hospital, LocalDate date, LocalTime time, Doctor doctor, Patient patient, BigDecimal cost) {
     }
 
     public Appointment(LocalDate date,

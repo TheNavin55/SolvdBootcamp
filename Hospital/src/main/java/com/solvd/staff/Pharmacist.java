@@ -8,7 +8,7 @@ public class Pharmacist extends Employee{
     private long licence;
 
     public Pharmacist(int id, LocalDate startDate, double salary, long licence) {
-        super(id, startDate, salary);
+        super();
         this.licence = licence;
     }
 
