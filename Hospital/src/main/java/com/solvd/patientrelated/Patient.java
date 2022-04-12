@@ -5,6 +5,7 @@ import com.solvd.enums.Gender;
 import com.solvd.generalpurpose.Person;
 
 import java.time.LocalDate;
+import java.util.Random;
 
 public class Patient extends Person {
     private long id;
@@ -21,13 +22,13 @@ public class Patient extends Person {
         this.bloodType = bloodType;
     }
 
-    public Patient(String firstName, String lastName, long id, String healthInsuranceCompany, MedicalRecord medicalRecord, boolean isSick, BloodType bloodType) {
-        super(firstName, lastName);
+    public Patient(long id, String firstName, String lastName, Gender gender, BloodType bloodType, String healthInsuranceCompany) {
+        super();
         this.id = id;
-        this.healthInsuranceCompany = healthInsuranceCompany;
-        this.medicalRecord = medicalRecord;
-        this.isSick = isSick;
+        super.setFirstName(firstName);
+        super.setLastName(lastName);
         this.bloodType = bloodType;
+        this.healthInsuranceCompany = healthInsuranceCompany;
     }
 
     public Patient(String firstName, String lastName, LocalDate birthDate, Gender gender, long id, String healthInsuranceCompany, MedicalRecord medicalRecord, boolean isSick, BloodType bloodType) {

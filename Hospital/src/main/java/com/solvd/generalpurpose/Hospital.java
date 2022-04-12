@@ -2,6 +2,7 @@ package com.solvd.generalpurpose;
 
 import com.solvd.staff.Doctor;
 import com.solvd.staff.Nurse;
+import com.solvd.staff.Receptionist;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +12,9 @@ public class Hospital {
     private String address;
     private List<Doctor> doctorList = new ArrayList<>();
     private List<Nurse> nurseList = new ArrayList<>();
+    private List<Receptionist> recsList = new ArrayList<Receptionist>();
+
+
 
     public Hospital(String name, String address) {
         this.name = name;
@@ -49,6 +53,15 @@ public class Hospital {
         this.nurseList = nurseList;
     }
 
+    public List<Receptionist> getRecsList() {
+        return recsList;
+    }
+
+    public void setRecsList(List<Receptionist> recsList) {
+        this.recsList = recsList;
+    }
+
+
     public void addDoctor(Doctor doctor) {
         this.getDoctorList().add(doctor);
     }
@@ -63,5 +76,13 @@ public class Hospital {
 
     public void removeNurse(Nurse nurse) {
         this.getNurseList().remove(nurse);
+    }
+
+    public void addRec(Receptionist receptionist){
+        this.getRecsList().add(receptionist);
+    }
+
+    public void removeRec(Receptionist receptionist){
+        this.getRecsList().remove(receptionist);
     }
 }

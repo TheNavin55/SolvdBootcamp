@@ -22,4 +22,10 @@ public class Nurse extends Employee{
     public void setLicence(long licence) {
         this.licence = licence;
     }
+
+    @Override
+    public String toString() {
+        return "Nurse Information: " + "[First Name: " + super.getFirstName() + ", Last Name: " + super.getLastName()
+                + ", Licence: " + licence+"]";
+    }
 }

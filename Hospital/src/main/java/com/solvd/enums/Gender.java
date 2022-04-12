@@ -5,7 +5,9 @@ public enum Gender {
 
     private final String genderLabel;
 
-    private Gender (String label) {this.genderLabel = label;}
+    private Gender (String label) {
+        this.genderLabel = label;
+    }
 
     public String getGenderLabel() {
         return genderLabel;

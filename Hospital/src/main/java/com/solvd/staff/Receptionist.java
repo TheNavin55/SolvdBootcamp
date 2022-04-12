@@ -15,7 +15,18 @@ import java.time.LocalTime;
 public class Receptionist extends Employee implements IAppointment {
     private static Logger LOGGER = LogManager.getLogger(Receptionist.class);
 
-    public Receptionist() {}
+    public Receptionist() {
+        super();
+    }
+
+    public Receptionist(int id, String firstName, String lastName, double salary) {
+        super();
+        super.setId(id);
+        super.setFirstName(firstName);
+        super.setLastName(lastName);
+        super.setSalary(salary);
+
+    }
 
     @Override
     public Appointment saveAppointment(Hospital hospital, LocalDate date, LocalTime time, Doctor doctor, Patient patient, BigDecimal cost) {

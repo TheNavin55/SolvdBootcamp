@@ -6,6 +6,7 @@ import java.util.List;
 public class MedicalRecord {
     private List diagnosis = new ArrayList<> ();
     private List treatments = new ArrayList<> ();
+    private boolean medicalDischarge = false;
 
     public MedicalRecord() {}
 
@@ -23,5 +24,13 @@ public class MedicalRecord {
 
     public void setTreatments(List treatments) {
         this.treatments = treatments;
+    }
+
+    public boolean isMedicalDischarge() {
+        return medicalDischarge;
+    }
+
+    public void setMedicalDischarge(boolean medicalDischarge) {
+        this.medicalDischarge = medicalDischarge;
     }
 }

@@ -7,8 +7,14 @@ import java.time.LocalDate;
 public class Pharmacist extends Employee{
     private long licence;
 
-    public Pharmacist(int id, LocalDate startDate, double salary, long licence) {
+    public Pharmacist(){
         super();
+    }
+
+    public Pharmacist(int id, String firstName, String lastName, long licence) {
+        super();
+        super.setFirstName(firstName);
+        super.setLastName(lastName);
         this.licence = licence;
     }
 
