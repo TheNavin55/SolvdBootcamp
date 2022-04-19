@@ -14,6 +14,7 @@ import org.apache.logging.log4j.Logger;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.List;
 import java.util.Random;
 
 public class HospitalRunner {
@@ -27,7 +28,8 @@ public class HospitalRunner {
         LOGGER.info(hospital.toString());
 
         Doctor docA = new Doctor(1, "Alexis", "Villamayor", Specialty.CARD);
-        Doctor docB = new Doctor(2, "Ivan", "Gonzalez", Specialty.DERM);
+        Doctor docB = new Doctor(2, "Alejandro", "Costa", Specialty.GEN_SUR);
+        Doctor docC = new Doctor(3, "Ivan", "Gonzalez", Specialty.DERM);
 
         Nurse nurseA = new Nurse(3, "Agustin", "Cabeza", rd.nextInt(99999));
 
@@ -35,6 +37,7 @@ public class HospitalRunner {
 
         hospital.addDoctor(docA);
         hospital.addDoctor(docB);
+        hospital.addDoctor(docC);
         hospital.addNurse(nurseA);
         hospital.addRec(recA);
 
@@ -59,6 +62,15 @@ public class HospitalRunner {
         employeesList.add(nurseA);
 
         LOGGER.info(employeesList.iterate());
+
+        docA.print(()-> LOGGER.info("Doctor is working"));
+
+        List<Doctor> docs = hospital.getDoctorList();
+        LOGGER.info(docs);
+
+        List<Doctor> docs2 = docs.stream().filter(p -> p.getFirstName().startsWith("A")).toList();
+
+        LOGGER.info(docs2);
 
     }
 }

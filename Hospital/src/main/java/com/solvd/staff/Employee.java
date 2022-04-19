@@ -2,6 +2,7 @@ package com.solvd.staff;
 
 import com.solvd.enums.Gender;
 import com.solvd.generalpurpose.Person;
+import com.solvd.interfaces.IPrint;
 
 import java.time.LocalDate;
 
@@ -52,5 +53,9 @@ public abstract class Employee extends Person {
 
     public void setSalary(double salary) {
         this.salary = salary;
+    }
+
+    public void print(IPrint print){
+        print.print();
     }
 }

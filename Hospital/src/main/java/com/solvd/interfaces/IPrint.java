@@ -1,5 +1,6 @@
 package com.solvd.interfaces;
 
-public interface Printable<T> {
+@FunctionalInterface
+public interface IPrint {
     void print();
 }

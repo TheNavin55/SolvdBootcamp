@@ -99,3 +99,122 @@ But the man they found bound hand and foot to the holdfast wall awaiting the kin
 2022-04-12 16:24:43 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]
 2022-04-12 16:24:43 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 84064]
 2022-04-12 16:24:43 [main] INFO  HospitalRunner:61 - null
+2022-04-18 19:04:26 [main] INFO  HospitalRunner:23 - Starting program
+2022-04-18 19:04:26 [main] INFO  HospitalRunner:27 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-18 19:04:26 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-18 19:04:26 [main] ERROR HospitalRunner:51 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-18 19:04:26 [main] INFO  Doctor:46 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-18 19:04:26 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-18 19:04:26 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-18 19:04:26 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]
+2022-04-18 19:04:26 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 76465]
+2022-04-18 19:04:26 [main] INFO  HospitalRunner:61 - null
+2022-04-18 19:04:26 [main] INFO  HospitalRunner:63 - Doctor is working
+2022-04-18 19:55:23 [main] INFO  HospitalRunner:23 - Starting program
+2022-04-18 19:55:23 [main] INFO  HospitalRunner:27 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-18 19:55:23 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-18 19:55:23 [main] ERROR HospitalRunner:51 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-18 19:55:23 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-18 19:55:23 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-18 19:55:23 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-18 19:55:23 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]
+2022-04-18 19:55:23 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 60172]
+2022-04-18 19:55:23 [main] INFO  HospitalRunner:61 - null
+2022-04-18 19:55:23 [main] INFO  HospitalRunner:63 - Doctor is working
+2022-04-19 17:05:24 [main] INFO  HospitalRunner:23 - Starting program
+2022-04-19 17:05:24 [main] INFO  HospitalRunner:27 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-19 17:05:24 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 17:05:24 [main] ERROR HospitalRunner:51 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 17:05:24 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 17:05:24 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-19 17:05:24 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 17:05:24 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]
+2022-04-19 17:05:24 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 35579]
+2022-04-19 17:05:24 [main] INFO  HospitalRunner:61 - null
+2022-04-19 17:05:24 [main] INFO  HospitalRunner:63 - Doctor is working
+2022-04-19 17:05:58 [main] INFO  HospitalRunner:23 - Starting program
+2022-04-19 17:05:58 [main] INFO  HospitalRunner:27 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-19 17:05:58 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 17:05:58 [main] ERROR HospitalRunner:51 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 17:05:58 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 17:05:58 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-19 17:05:58 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 17:05:58 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]
+2022-04-19 17:05:58 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 68383]
+2022-04-19 17:05:58 [main] INFO  HospitalRunner:61 - null
+2022-04-19 17:05:58 [main] INFO  HospitalRunner:63 - Doctor is working
+2022-04-19 17:05:58 [main] INFO  HospitalRunner:65 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-04-19 17:37:37 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-19 17:37:37 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-19 17:37:37 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 17:37:37 [main] ERROR HospitalRunner:52 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 17:37:37 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 17:37:37 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-19 17:37:37 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 17:37:37 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]
+2022-04-19 17:37:37 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 35026]
+2022-04-19 17:37:37 [main] INFO  HospitalRunner:62 - null
+2022-04-19 17:37:37 [main] INFO  HospitalRunner:64 - Doctor is working
+2022-04-19 18:31:39 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-19 18:31:39 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-19 18:31:39 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 18:31:39 [main] ERROR HospitalRunner:52 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 18:31:39 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 18:31:39 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-19 18:31:39 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 18:31:39 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]
+2022-04-19 18:31:39 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 38782]
+2022-04-19 18:31:39 [main] INFO  HospitalRunner:62 - null
+2022-04-19 18:31:39 [main] INFO  HospitalRunner:64 - Doctor is working
+2022-04-19 18:31:39 [main] INFO  HospitalRunner:71 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]]
+2022-04-19 18:33:01 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-19 18:33:01 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-19 18:33:01 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 18:33:01 [main] ERROR HospitalRunner:53 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 18:33:01 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 18:33:01 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-19 18:33:01 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 18:33:01 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-19 18:33:01 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 49992]
+2022-04-19 18:33:01 [main] INFO  HospitalRunner:63 - null
+2022-04-19 18:33:01 [main] INFO  HospitalRunner:65 - Doctor is working
+2022-04-19 18:33:01 [main] INFO  HospitalRunner:72 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-19 18:33:57 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-19 18:33:57 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-19 18:33:57 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 18:33:57 [main] ERROR HospitalRunner:53 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 18:33:57 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 18:33:57 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-19 18:33:57 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 18:33:57 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-19 18:33:57 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 1500]
+2022-04-19 18:33:57 [main] INFO  HospitalRunner:63 - null
+2022-04-19 18:33:57 [main] INFO  HospitalRunner:65 - Doctor is working
+2022-04-19 18:33:57 [main] INFO  HospitalRunner:68 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-19 18:33:57 [main] INFO  HospitalRunner:72 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-19 18:35:10 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-19 18:35:10 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@649bec2e
+2022-04-19 18:35:10 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 18:35:10 [main] ERROR HospitalRunner:54 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 18:35:10 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 18:35:10 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-19 18:35:10 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 18:35:10 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-19 18:35:10 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 86483]
+2022-04-19 18:35:10 [main] INFO  HospitalRunner:64 - null
+2022-04-19 18:35:10 [main] INFO  HospitalRunner:66 - Doctor is working
+2022-04-19 18:35:10 [main] INFO  HospitalRunner:69 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-04-19 18:35:10 [main] INFO  HospitalRunner:73 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-19 19:03:39 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-19 19:03:39 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-19 19:03:39 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 19:03:39 [main] ERROR HospitalRunner:54 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 19:03:39 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 19:03:39 [main] INFO  LinkedList:21 - Iterating list on regular order
+2022-04-19 19:03:39 [main] INFO  LinkedList:23 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 19:03:39 [main] INFO  LinkedList:26 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-19 19:03:39 [main] INFO  LinkedList:26 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 1896]
+2022-04-19 19:03:39 [main] INFO  HospitalRunner:64 - null
+2022-04-19 19:03:39 [main] INFO  HospitalRunner:66 - Doctor is working
+2022-04-19 19:03:39 [main] INFO  HospitalRunner:69 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-04-19 19:03:39 [main] INFO  HospitalRunner:73 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]

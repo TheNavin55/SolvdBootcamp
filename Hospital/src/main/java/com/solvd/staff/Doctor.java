@@ -34,7 +34,12 @@ public class Doctor extends Employee implements ICure {
         this.speciality = speciality;
     }
 
-
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Doctor doctor)) return false;
+        return getSpeciality() == doctor.getSpeciality();
+    }
 
     @Override
     public int hashCode() {

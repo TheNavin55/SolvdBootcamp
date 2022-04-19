@@ -24,6 +24,19 @@ public class Nurse extends Employee{
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Nurse nurse = (Nurse) o;
+        return Objects.equals(licence, nurse.licence);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(licence);
+    }
+
+    @Override
     public String toString() {
         return "Nurse Information: " + "[First Name: " + super.getFirstName() + ", Last Name: " + super.getLastName()
                 + ", Licence: " + licence+"]";
