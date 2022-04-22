@@ -31,7 +31,7 @@ public class LinkedList <E>{
         return null;
     }
 
-    public void reverseIterate() {
+    public Marker reverseIterate() {
         if (this.getLength() != 0) {
             LOGGER.info("Iterating list on reverse order");
             Node<E> tmp = last;
@@ -43,6 +43,7 @@ public class LinkedList <E>{
         } else {
             throw new NullPointerException("Can't iterate through an empty list");
         }
+        return null;
     }
 
     //adds element to the end of the list

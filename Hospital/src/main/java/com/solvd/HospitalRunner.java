@@ -61,16 +61,18 @@ public class HospitalRunner {
         employeesList.add(docB);
         employeesList.add(nurseA);
 
-        LOGGER.info(employeesList.iterate());
+        LOGGER.info(employeesList.reverseIterate());
+
 
         docA.print(()-> LOGGER.info("Doctor is working"));
+        nurseA.print(()-> LOGGER.info("Nurse is working"));
+
 
         List<Doctor> docs = hospital.getDoctorList();
         LOGGER.info(docs);
-
         List<Doctor> docs2 = docs.stream().filter(p -> p.getFirstName().startsWith("A")).toList();
-
         LOGGER.info(docs2);
+
 
     }
 }

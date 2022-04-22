@@ -13,6 +13,8 @@ public class Doctor extends Employee implements ICure {
     private static Logger LOGGER = LogManager.getLogger(Doctor.class);
 
     private Specialty speciality;
+    public Integer license;
+    public Integer salary;
 
     public Doctor() {
         super();

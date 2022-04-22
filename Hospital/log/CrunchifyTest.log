@@ -218,3 +218,152 @@ But the man they found bound hand and foot to the holdfast wall awaiting the kin
 2022-04-19 19:03:39 [main] INFO  HospitalRunner:66 - Doctor is working
 2022-04-19 19:03:39 [main] INFO  HospitalRunner:69 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
 2022-04-19 19:03:39 [main] INFO  HospitalRunner:73 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-19 19:14:42 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-19 19:14:42 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-19 19:14:42 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 19:14:42 [main] ERROR HospitalRunner:54 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 19:14:42 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 19:14:42 [main] INFO  LinkedList:36 - Iterating list on reverse order
+2022-04-19 19:14:42 [main] INFO  LinkedList:38 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 37154]
+2022-04-19 19:14:42 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-19 19:14:42 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 19:14:42 [main] INFO  HospitalRunner:64 - null
+2022-04-19 19:14:42 [main] INFO  HospitalRunner:66 - Doctor is working
+2022-04-19 19:14:42 [main] INFO  HospitalRunner:69 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-04-19 19:14:42 [main] INFO  HospitalRunner:73 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-19 19:34:50 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-19 19:34:50 [main] ERROR HospitalRunner:54 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-19 19:34:50 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-19 19:34:50 [main] INFO  LinkedList:36 - Iterating list on reverse order
+2022-04-19 19:34:50 [main] INFO  LinkedList:38 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 23479]
+2022-04-19 19:34:50 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-19 19:34:50 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:64 - null
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:67 - Doctor is working
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:68 - Nurse is working
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:72 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:74 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:76 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:76 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-19 19:34:50 [main] INFO  HospitalRunner:76 - Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]
+2022-04-20 19:26:55 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-20 19:26:55 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-20 19:26:55 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-20 19:26:55 [main] ERROR HospitalRunner:54 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-20 19:26:55 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-20 19:26:55 [main] INFO  LinkedList:36 - Iterating list on reverse order
+2022-04-20 19:26:55 [main] INFO  LinkedList:38 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 15896]
+2022-04-20 19:26:55 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-20 19:26:55 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-20 19:26:55 [main] INFO  HospitalRunner:64 - null
+2022-04-20 19:26:55 [main] INFO  HospitalRunner:67 - Doctor is working
+2022-04-20 19:26:55 [main] INFO  HospitalRunner:68 - Nurse is working
+2022-04-20 19:26:55 [main] INFO  HospitalRunner:72 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-04-20 19:26:55 [main] INFO  HospitalRunner:74 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-20 19:48:24 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-20 19:48:24 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@649bec2e
+2022-04-20 19:48:24 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-20 19:48:24 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-20 19:48:24 [main] INFO  LinkedList:36 - Iterating list on reverse order
+2022-04-20 19:48:24 [main] INFO  LinkedList:38 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 59890]
+2022-04-20 19:48:24 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-20 19:48:24 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-20 19:48:24 [main] INFO  HospitalRunner:64 - null
+2022-04-20 19:48:24 [main] INFO  HospitalRunner:67 - Doctor is working
+2022-04-20 19:48:24 [main] INFO  HospitalRunner:68 - Nurse is working
+2022-04-20 19:48:24 [main] INFO  HospitalRunner:72 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-04-20 19:48:24 [main] INFO  HospitalRunner:74 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-20 19:50:17 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-20 19:50:17 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-20 19:50:17 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-20 19:50:17 [main] ERROR HospitalRunner:54 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-20 19:50:17 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-20 19:50:17 [main] INFO  LinkedList:36 - Iterating list on reverse order
+2022-04-20 19:50:17 [main] INFO  LinkedList:38 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 30194]
+2022-04-20 19:50:17 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-20 19:50:17 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-20 19:50:17 [main] INFO  HospitalRunner:64 - null
+2022-04-20 19:50:17 [main] INFO  HospitalRunner:67 - Doctor is working
+2022-04-20 19:50:17 [main] INFO  HospitalRunner:68 - Nurse is working
+2022-04-20 19:50:17 [main] INFO  HospitalRunner:72 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-04-20 19:50:17 [main] INFO  HospitalRunner:74 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-21 18:51:08 [main] INFO  HospitalRunner:24 - Starting program
+2022-04-21 18:51:08 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@693fe6c9
+2022-04-21 18:51:08 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-04-21 18:51:08 [main] ERROR HospitalRunner:54 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-04-21 18:51:08 [main] INFO  Doctor:51 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-04-21 18:51:08 [main] INFO  LinkedList:36 - Iterating list on reverse order
+2022-04-21 18:51:08 [main] INFO  LinkedList:38 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 69548]
+2022-04-21 18:51:08 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-04-21 18:51:08 [main] INFO  LinkedList:41 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-04-21 18:51:08 [main] INFO  HospitalRunner:64 - null
+2022-04-21 18:51:08 [main] INFO  HospitalRunner:67 - Doctor is working
+2022-04-21 18:51:08 [main] INFO  HospitalRunner:68 - Nurse is working
+2022-04-21 18:51:08 [main] INFO  HospitalRunner:72 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-04-21 18:51:08 [main] INFO  HospitalRunner:74 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
+2022-04-21 19:22:10 [main] INFO  ReflectionsPerson:13 - The name's classcom.solvd.generalpurpose.Person
+2022-04-21 19:22:39 [main] INFO  ReflectionsPerson:13 - The name's class com.solvd.generalpurpose.Person
+2022-04-21 19:23:15 [main] INFO  ReflectionsPerson:13 - The name class is com.solvd.generalpurpose.Person
+2022-04-21 19:30:48 [pool-2-thread-4] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 19:30:48 [pool-2-thread-1] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 19:30:48 [pool-2-thread-3] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 19:30:48 [pool-2-thread-2] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 19:30:49 [pool-2-thread-5] INFO  Threads:57 - This is the run method from the Car1 Class
+2022-04-21 19:30:51 [pool-2-thread-1] INFO  Threads:57 - This is the run method from the Car1 Class
+2022-04-21 19:30:51 [pool-2-thread-4] INFO  Threads:57 - This is the run method from the Car1 Class
+2022-04-21 19:39:25 [pool-2-thread-2] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 19:39:25 [pool-2-thread-4] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 19:39:25 [pool-2-thread-1] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 19:39:25 [pool-2-thread-3] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 19:39:26 [pool-2-thread-5] INFO  Threads:55 - This is the run method from the Car1 Class
+2022-04-21 19:39:28 [pool-2-thread-1] INFO  Threads:55 - This is the run method from the Car1 Class
+2022-04-21 19:39:28 [pool-2-thread-2] INFO  Threads:55 - This is the run method from the Car1 Class
+2022-04-21 19:53:52 [main] INFO  ReflectionsDoctor:18 - The super class of Doctor class is: class com.solvd.staff.Employee
+2022-04-21 19:54:43 [main] INFO  ReflectionsDoctor:18 - The super class of Doctor class is: class com.solvd.staff.Employee
+2022-04-21 19:58:54 [main] INFO  ReflectionsDoctor:18 - The super class of Doctor class is: class com.solvd.staff.Employee
+2022-04-21 20:02:13 [main] INFO  ReflectionsDoctor:18 - The super class of Doctor class is: class com.solvd.staff.Employee
+2022-04-21 20:05:24 [main] INFO  ReflectionsDoctor:18 - The super class of Doctor class is: class com.solvd.staff.Employee
+2022-04-21 20:07:20 [main] INFO  ReflectionsDoctor:18 - The super class of Doctor class is: class com.solvd.staff.Employee
+2022-04-21 20:07:20 [main] INFO  ReflectionsDoctor:24 - There are 31 methods in this class
+2022-04-21 20:07:20 [main] INFO  ReflectionsDoctor:26 - There are 2 fields in this class
+2022-04-21 20:07:20 [main] INFO  ReflectionsDoctor:28 - public java.lang.Integer com.solvd.staff.Doctor.license
+2022-04-21 20:07:20 [main] INFO  ReflectionsDoctor:28 - public java.lang.Integer com.solvd.staff.Doctor.salary
+2022-04-21 20:13:28 [pool-2-thread-3] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 20:13:28 [pool-2-thread-2] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 20:13:28 [pool-2-thread-4] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 20:13:28 [pool-2-thread-5] INFO  Threads:55 - This is the run method from the Car1 Class
+2022-04-21 20:13:28 [pool-2-thread-1] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 20:13:30 [pool-2-thread-2] INFO  Threads:55 - This is the run method from the Car1 Class
+2022-04-21 20:13:30 [pool-2-thread-4] INFO  Threads:55 - This is the run method from the Car1 Class
+2022-04-21 20:14:39 [pool-2-thread-3] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 20:14:39 [pool-2-thread-1] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 20:14:39 [pool-2-thread-4] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 20:14:39 [pool-2-thread-2] INFO  Threads:42 - this is the run called from the Car Class
+2022-04-21 20:14:41 [pool-2-thread-4] INFO  Threads:55 - This is the run method from the Car1 Class
+2022-04-21 20:14:41 [pool-2-thread-3] INFO  Threads:55 - This is the run method from the Car1 Class
+2022-04-21 20:14:41 [pool-2-thread-2] INFO  Threads:55 - This is the run method from the Car1 Class
+2022-04-21 20:45:29 [pool-2-thread-1] INFO  Threads:43 - this is the run called from the Car Class
+2022-04-21 20:45:29 [pool-2-thread-6] INFO  Threads:56 - This is the run method from the Car1 Class
+2022-04-21 20:45:29 [pool-2-thread-7] INFO  Threads:56 - This is the run method from the Car1 Class
+2022-04-21 20:45:29 [pool-2-thread-2] INFO  Threads:43 - this is the run called from the Car Class
+2022-04-21 20:45:29 [pool-2-thread-3] INFO  Threads:43 - this is the run called from the Car Class
+2022-04-21 20:45:29 [pool-2-thread-5] INFO  Threads:56 - This is the run method from the Car1 Class
+2022-04-21 20:45:29 [pool-2-thread-4] INFO  Threads:43 - this is the run called from the Car Class
+2022-04-21 20:47:00 [pool-2-thread-3] INFO  Threads:45 - this is the run called from the Car Class
+2022-04-21 20:47:00 [pool-2-thread-4] INFO  Threads:45 - this is the run called from the Car Class
+2022-04-21 20:47:00 [pool-2-thread-5] INFO  Threads:58 - This is the run method from the Car1 Class
+2022-04-21 20:47:00 [pool-2-thread-2] INFO  Threads:45 - this is the run called from the Car Class
+2022-04-21 20:47:00 [pool-2-thread-7] INFO  Threads:58 - This is the run method from the Car1 Class
+2022-04-21 20:47:00 [pool-2-thread-1] INFO  Threads:45 - this is the run called from the Car Class
+2022-04-21 20:47:00 [pool-2-thread-6] INFO  Threads:58 - This is the run method from the Car1 Class
+2022-04-21 20:47:02 [pool-2-thread-4] INFO  Threads:58 - This is the run method from the Car1 Class
+2022-04-21 20:47:26 [pool-2-thread-1] INFO  Threads:45 - this is the run called from the Car Class
+2022-04-21 20:47:26 [pool-2-thread-3] INFO  Threads:45 - this is the run called from the Car Class
+2022-04-21 20:47:26 [pool-2-thread-2] INFO  Threads:45 - this is the run called from the Car Class
+2022-04-21 20:47:26 [pool-2-thread-4] INFO  Threads:45 - this is the run called from the Car Class
+2022-04-21 20:47:27 [pool-2-thread-5] INFO  Threads:58 - This is the run method from the Car1 Class
+2022-04-21 20:47:27 [pool-2-thread-7] INFO  Threads:58 - This is the run method from the Car1 Class
+2022-04-21 20:47:27 [pool-2-thread-6] INFO  Threads:58 - This is the run method from the Car1 Class
+2022-04-21 20:47:29 [pool-2-thread-1] INFO  Threads:58 - This is the run method from the Car1 Class
