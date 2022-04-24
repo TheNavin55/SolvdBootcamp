@@ -375,3 +375,11 @@ But the man they found bound hand and foot to the holdfast wall awaiting the kin
 2022-04-24 18:58:55 [pool-2-thread-4] INFO  Threads:46 - this is the run called from the Car Class
 2022-04-24 18:58:56 [pool-2-thread-7] INFO  Threads:59 - This is the run method from the Car1 Class
 2022-04-24 18:58:56 [pool-2-thread-1] INFO  Threads:59 - This is the run method from the Car1 Class
+2022-04-24 19:02:44 [pool-2-thread-1] INFO  Threads:24 - Executing threads
+2022-04-24 19:02:46 [pool-2-thread-4] INFO  Threads:46 - this is the run called from the Car Class
+2022-04-24 19:02:46 [pool-2-thread-2] INFO  Threads:46 - this is the run called from the Car Class
+2022-04-24 19:02:46 [pool-2-thread-3] INFO  Threads:46 - this is the run called from the Car Class
+2022-04-24 19:02:46 [pool-2-thread-5] INFO  Threads:46 - this is the run called from the Car Class
+2022-04-24 19:02:46 [pool-2-thread-1] INFO  Threads:46 - this is the run called from the Car Class
+2022-04-24 19:02:49 [pool-2-thread-2] INFO  Threads:59 - This is the run method from the Car1 Class
+2022-04-24 19:02:49 [pool-2-thread-4] INFO  Threads:59 - This is the run method from the Car1 Class
