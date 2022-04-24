@@ -20,6 +20,9 @@ public class Threads {
         Car1 c7 = new Car1();
 
         ThreadPoolExecutor tp = (ThreadPoolExecutor) Executors.newFixedThreadPool(7);
+        tp.submit(() -> {
+            LOGGER.info("Executing threads");
+        });
         tp.execute(c1);
         tp.execute(c2);
         tp.execute(c3);
