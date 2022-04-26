@@ -4,15 +4,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.Marker;
 
-public class LinkedList <E>{
-    private static final Logger LOGGER = LogManager.getLogger(LinkedList.class);
+public class EmpLinkedList<E>{
+    private static final Logger LOGGER = LogManager.getLogger(EmpLinkedList.class);
 
     private Node <E> head;
     private Node <E> last;
     private int length;
 
 
-    public LinkedList() {
+    public EmpLinkedList() {
         length = 0;
     }
 

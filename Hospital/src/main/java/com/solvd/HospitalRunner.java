@@ -1,6 +1,6 @@
 package com.solvd;
 
-import Collections.LinkedList;
+import Collections.EmpLinkedList;
 import com.solvd.enums.BloodType;
 import com.solvd.enums.Gender;
 import com.solvd.enums.Specialty;
@@ -56,7 +56,7 @@ public class HospitalRunner {
 
         docA.curePatient(patA);
 
-        LinkedList<Employee> employeesList = new LinkedList<Employee>();
+        EmpLinkedList<Employee> employeesList = new EmpLinkedList<Employee>();
         employeesList.add(docA);
         employeesList.add(docB);
         employeesList.add(nurseA);
