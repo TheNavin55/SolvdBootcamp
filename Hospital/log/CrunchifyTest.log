@@ -383,3 +383,17 @@ But the man they found bound hand and foot to the holdfast wall awaiting the kin
 2022-04-24 19:02:46 [pool-2-thread-1] INFO  Threads:46 - this is the run called from the Car Class
 2022-04-24 19:02:49 [pool-2-thread-2] INFO  Threads:59 - This is the run method from the Car1 Class
 2022-04-24 19:02:49 [pool-2-thread-4] INFO  Threads:59 - This is the run method from the Car1 Class
+2022-05-16 22:12:53 [main] INFO  HospitalRunner:24 - Starting program
+2022-05-16 22:12:53 [main] INFO  HospitalRunner:28 - com.solvd.generalpurpose.Hospital@31e5415e
+2022-05-16 22:12:53 [main] INFO  Receptionist:37 - Appointment registered successfully
+2022-05-16 22:12:53 [main] ERROR HospitalRunner:54 - com.solvd.exceptions.HealthInsuranceCompanyException: Patient can't be appointment without a Health Insurance Company
+2022-05-16 22:12:53 [main] INFO  Doctor:53 - Patient Juan Orellana no longer need to receive inpatient care and can go home.
+2022-05-16 22:12:53 [main] INFO  EmpLinkedList:36 - Iterating list on reverse order
+2022-05-16 22:12:53 [main] INFO  EmpLinkedList:38 - Nurse Information: [First Name: Agustin, Last Name: Cabeza, Licence: 16885]
+2022-05-16 22:12:53 [main] INFO  EmpLinkedList:41 - Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]
+2022-05-16 22:12:53 [main] INFO  EmpLinkedList:41 - Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD]
+2022-05-16 22:12:53 [main] INFO  HospitalRunner:64 - null
+2022-05-16 22:12:53 [main] INFO  HospitalRunner:67 - Doctor is working
+2022-05-16 22:12:53 [main] INFO  HospitalRunner:68 - Nurse is working
+2022-05-16 22:12:53 [main] INFO  HospitalRunner:72 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR], Doctor Information: [First Name: Ivan, Last Name: Gonzalez, Speciality: DERM]]
+2022-05-16 22:12:53 [main] INFO  HospitalRunner:74 - [Doctor Information: [First Name: Alexis, Last Name: Villamayor, Speciality: CARD], Doctor Information: [First Name: Alejandro, Last Name: Costa, Speciality: GEN_SUR]]
