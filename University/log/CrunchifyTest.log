@@ -1,0 +1,211 @@
+2022-05-21 18:48:46 [main] INFO  University.University:9 - Hello World!
+2022-06-01 13:07:23 [main] ERROR StudentDAO:39 - There was a problem while doing the statement
+2022-06-01 13:08:53 [main] INFO  University:16 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-01 14:29:36 [main] INFO  University:16 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-01 14:29:36 [main] ERROR StudentDAO:92 - There was a problem while doing the statement
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1115) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1350) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:90) ~[classes/:?]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:14) ~[classes/:?]
+	at University.DAO.service.impl.StudentServiceImpl.updateStudent(StudentServiceImpl.java:25) ~[classes/:?]
+	at University.University.main(University.java:19) ~[classes/:?]
+2022-06-01 14:46:14 [main] INFO  University:16 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-01 14:46:14 [main] ERROR StudentDAO:66 - There was a problem while doing the statement
+2022-06-01 14:51:28 [main] INFO  University:16 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-01 14:51:28 [main] ERROR StudentDAO:66 - There was a problem while doing the statement
+2022-06-01 14:55:20 [main] INFO  University:16 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-05 21:36:29 [main] INFO  University:18 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-05 21:37:16 [main] INFO  University:18 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 21:52:19 [main] INFO  University:18 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 21:56:38 [main] INFO  University:18 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 22:23:59 [main] INFO  University:18 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 22:25:12 [main] INFO  University:21 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 22:29:01 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 22:29:01 [main] INFO  StudentJackson:24 - There was an error while des serializing the client
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<University.bin.studentrelated.Student>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (File); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1741) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1515) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1462) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:392) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:252) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3534) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at University.service.jackson.StudentJackson.serializedEntity(StudentJackson.java:21) ~[classes/:?]
+	at University.University.main(University.java:26) ~[classes/:?]
+2022-06-06 22:38:10 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 22:38:10 [main] INFO  StudentJackson:24 - There was an error while des serializing the client
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `University.bin.studentrelated.Residence` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 8, column: 7] (through reference chain: java.util.ArrayList[0]->University.bin.studentrelated.Student["residence"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:351) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:313) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3534) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at University.service.jackson.StudentJackson.serializedEntity(StudentJackson.java:21) ~[classes/:?]
+	at University.University.main(University.java:26) ~[classes/:?]
+2022-06-06 22:53:30 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 22:53:30 [main] INFO  StudentJackson:24 - There was an error while des serializing the client
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `University.bin.studentrelated.Residence` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 8, column: 7] (through reference chain: java.util.ArrayList[0]->University.bin.studentrelated.Student["residence"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:351) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:313) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3534) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at University.service.jackson.StudentJackson.serializedEntity(StudentJackson.java:21) ~[classes/:?]
+	at University.University.main(University.java:26) ~[classes/:?]
+2022-06-06 22:56:13 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 22:56:14 [main] INFO  StudentJackson:24 - There was an error while des serializing the client
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `University.bin.studentrelated.Intership` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 8, column: 7] (through reference chain: java.util.ArrayList[0]->University.bin.studentrelated.Student["intership"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:351) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:313) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3534) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at University.service.jackson.StudentJackson.serializedEntity(StudentJackson.java:21) ~[classes/:?]
+	at University.University.main(University.java:26) ~[classes/:?]
+2022-06-06 22:58:27 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 22:58:27 [main] INFO  StudentJackson:24 - There was an error while des serializing the client
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `University.bin.studentrelated.Intership` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 12, column: 7] (through reference chain: java.util.ArrayList[0]->University.bin.studentrelated.Student["intership"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:351) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:313) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3534) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at University.service.jackson.StudentJackson.serializedEntity(StudentJackson.java:21) ~[classes/:?]
+	at University.University.main(University.java:26) ~[classes/:?]
+2022-06-06 22:59:53 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 22:59:53 [main] INFO  University:27 - [Student{id=1, firstname='Agustin', lastname='Cabeza', age=24, residence=University.bin.studentrelated.Residence@214894fc, intership=University.bin.studentrelated.Intership@10567255, grant=University.bin.studentrelated.Grant@e362c57, exchange=University.bin.studentrelated.Exchange@1c4ee95c}]
+2022-06-06 23:03:05 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:03:05 [main] INFO  University:27 - [Student{id=1, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:09:03 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:11:45 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:11:45 [main] INFO  University:29 - Teacher{id=10, firstname='null', lastname='null', age=0}
+2022-06-06 23:11:45 [main] INFO  University:34 - [Student{id=1, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:16:12 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:16:12 [main] INFO  University:29 - Teacher{id=10, firstname='null', lastname='null', age=0}
+2022-06-06 23:16:12 [main] INFO  University:34 - [Student{id=1, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:19:37 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:19:37 [main] INFO  University:29 - Teacher{id=1, firstname='null', lastname='null', age=0}
+2022-06-06 23:19:37 [main] INFO  University:34 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:21:34 [main] INFO  University:23 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:21:35 [main] INFO  University:29 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-06 23:21:35 [main] INFO  University:34 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:26:16 [main] INFO  University:25 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:26:16 [main] INFO  University:31 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-06 23:26:16 [main] INFO  University:36 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:26:16 [main] ERROR DeanDAO:37 - There was a problem while doing the statement
+2022-06-06 23:34:39 [main] INFO  University:25 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:34:39 [main] INFO  University:31 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-06 23:34:39 [main] INFO  University:36 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:34:39 [main] INFO  University:42 - University.bin.staff.Dean@31e32ea2
+2022-06-06 23:35:12 [main] INFO  University:25 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:35:12 [main] INFO  University:31 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-06 23:35:12 [main] INFO  University:36 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:35:12 [main] INFO  University:42 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}
+2022-06-06 23:39:01 [main] INFO  University:24 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:39:01 [main] INFO  University:30 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-06 23:39:02 [main] INFO  University:39 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:39:02 [main] INFO  University:44 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}
+2022-06-06 23:43:38 [main] INFO  University:25 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:43:38 [main] ERROR StudentDAO:66 - There was a problem while doing the statement
+2022-06-06 23:45:17 [main] INFO  University:25 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:45:17 [main] ERROR StudentDAO:66 - There was a problem while doing the statement
+2022-06-06 23:55:25 [main] INFO  University:25 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:55:25 [main] INFO  University:36 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-06 23:55:26 [main] INFO  StudentJackson:24 - There was an error while des serializing the client
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<University.bin.studentrelated.Student>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (File); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1741) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1515) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1462) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:392) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:252) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3534) ~[jackson-databind-2.13.3.jar:2.13.3]
+	at University.service.jackson.StudentJackson.serializedEntity(StudentJackson.java:21) ~[classes/:?]
+	at University.University.main(University.java:44) ~[classes/:?]
+2022-06-06 23:56:01 [main] INFO  University:25 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-06 23:56:01 [main] INFO  University:36 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-06 23:56:02 [main] INFO  University:45 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-06 23:56:02 [main] INFO  University:50 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}
+2022-06-08 20:14:22 [main] INFO  University:25 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-08 20:14:22 [main] ERROR StudentDAO:92 - There was a problem while doing the statement
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1115) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1350) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:90) ~[classes/:?]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:14) ~[classes/:?]
+	at University.service.JDBCImpl.StudentServiceImpl.updateStudent(StudentServiceImpl.java:25) ~[classes/:?]
+	at University.University.main(University.java:29) ~[classes/:?]
+2022-06-08 20:19:58 [main] INFO  University:25 - Student{id=1, firstname='Cristian', lastname='Gomez', age=14, residence=null, intership=null, grant=null, exchange=null}
+2022-06-08 20:19:58 [main] INFO  University:29 - null
+2022-06-08 20:19:58 [main] INFO  University:35 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-08 20:19:58 [main] INFO  University:44 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-08 20:19:58 [main] INFO  University:49 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}

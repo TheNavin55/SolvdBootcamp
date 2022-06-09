@@ -1,0 +1,24 @@
+[
+  {
+    "id" : 2,
+    "fname" : "Agustin",
+    "lname" : "Cabeza",
+    "age" : 24,
+    "residence" : {
+      "id" : 1,
+      "name" : "Beta"
+    },
+    "intership" : {
+      "id" : 1,
+      "name" : "Secheep"
+    },
+    "grant" : {
+      "id" : 1,
+      "balance" : 10000
+    },
+    "exchange" : {
+      "id" : 1,
+      "procedency" : "Taco Pozo"
+    }
+  }
+]

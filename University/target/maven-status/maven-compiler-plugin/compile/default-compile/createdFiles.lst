@@ -1,0 +1,15 @@
+University\bin\studentrelated\Asignature.class
+University\bin\studentrelated\Intership.class
+University\bin\studentrelated\Student.class
+University\bin\generalpurpose\Deparment.class
+University\bin\studentrelated\Exam.class
+University\bin\generalpurpose\University.class
+University\bin\generalpurpose\ClassRoom.class
+University\bin\staff\Dean.class
+University\bin\studentrelated\Grant.class
+University\bin\generalpurpose\Library.class
+University\bin\generalpurpose\Speciality.class
+University\bin\studentrelated\Exchange.class
+University\bin\studentrelated\Residence.class
+University\bin\studentrelated\Marks.class
+University\bin\staff\Teacher.class
