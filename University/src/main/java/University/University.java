@@ -25,9 +25,19 @@ public class University {
         LOGGER.info(student);
 
         StudentServiceImpl studentService1 = new StudentServiceImpl();
-        Student student2 = studentService1.deleteStudent(1);
+        Student student2 = studentService1.deleteStudent(2);
         LOGGER.info(student2);
 
+        /*StudentServiceImpl studentService2 = new StudentServiceImpl();
+        Student student3 = new Student(3,"Diego","Gonzalez",40);
+        studentService2.saveStudent(student3);
+        LOGGER.info(student3);
+         */
+
+        student.setLastname("German");
+        student.setLastname("Shloter");
+        studentService.updateStudent(student);
+        LOGGER.info(student);
 
         //JaxB
         TeacherJaxB teacherJaxB = new TeacherJaxB();

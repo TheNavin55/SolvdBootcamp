@@ -14,7 +14,7 @@ import java.sql.SQLException;
 public class StudentDAO extends AbstractDAO implements IStudentDAO {
     private final static Logger LOGGER = LogManager.getLogger(StudentDAO.class);
     private final static String INSERT = "INSERT INTO Students (firstname, lastname, age) VALUES (?,?,?) WHERE id=?";
-    private final static String UPDATE = "UPDATE Student SET firstname=?,lastname=?,age=? WHERE id=?";
+    private final static String UPDATE = "UPDATE Students SET firstname=?,lastname=?,age=? WHERE id=?";
     private final static String SELECT = "SELECT * FROM Students WHERE id=?";
     private final static String DELETE = "DELETE FROM Students WHERE id=?";
 
@@ -61,6 +61,10 @@ public class StudentDAO extends AbstractDAO implements IStudentDAO {
 
         try{
             pr = con.prepareStatement(INSERT);
+            pr.setString(1, entity.getFirstname());
+            pr.setString(2, entity.getLastname());
+            pr.setInt(3 , entity.getAge());
+            pr.setLong(4, entity.getId());
             pr.execute();
         } catch (SQLException e) {
             LOGGER.error("There was a problem while doing the statement");
@@ -87,6 +91,10 @@ public class StudentDAO extends AbstractDAO implements IStudentDAO {
 
         try{
             pr = con.prepareStatement(UPDATE);
+            pr.setString(1, entity.getFirstname());
+            pr.setString(2, entity.getLastname());
+            pr.setInt(3 , entity.getAge());
+            pr.setLong(4, entity.getId());
             pr.executeUpdate();
         } catch (SQLException e) {
             LOGGER.error("There was a problem while doing the statement", e);

@@ -209,3 +209,84 @@ java.sql.SQLException: No value specified for parameter 1
 2022-06-08 20:19:58 [main] INFO  University:35 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
 2022-06-08 20:19:58 [main] INFO  University:44 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
 2022-06-08 20:19:58 [main] INFO  University:49 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}
+2022-06-09 10:40:23 [main] ERROR StudentDAO:39 - There was a problem while doing the statement
+2022-06-09 10:43:19 [main] INFO  University:25 - Student{id=1, firstname='Ivan', lastname='Gonzalez', age=40, residence=null, intership=null, grant=null, exchange=null}
+2022-06-09 10:43:19 [main] INFO  University:29 - null
+2022-06-09 10:43:19 [main] ERROR StudentDAO:66 - There was a problem while doing the statement
+2022-06-09 11:10:47 [main] INFO  University:25 - Student{id=1, firstname='Lucas', lastname='Cabeza', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-09 11:10:47 [main] INFO  University:29 - null
+2022-06-09 11:10:47 [main] INFO  University:42 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-09 11:10:47 [main] INFO  University:51 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-09 11:10:47 [main] INFO  University:56 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}
+2022-06-09 11:17:01 [main] INFO  University:25 - Student{id=1, firstname='Lucas', lastname='Cabeza', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-09 11:17:01 [main] INFO  University:29 - null
+2022-06-09 11:17:01 [main] ERROR StudentDAO:92 - There was a problem while doing the statement
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1115) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1350) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:90) ~[classes/:?]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:14) ~[classes/:?]
+	at University.service.JDBCImpl.StudentServiceImpl.updateStudent(StudentServiceImpl.java:25) ~[classes/:?]
+	at University.University.main(University.java:39) ~[classes/:?]
+2022-06-18 17:06:03 [main] INFO  University:25 - Student{id=1, firstname='Lucas', lastname='Cabeza', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-18 17:06:03 [main] INFO  University:29 - null
+2022-06-18 17:06:03 [main] ERROR StudentDAO:92 - There was a problem while doing the statement
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1115) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1350) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:90) ~[classes/:?]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:14) ~[classes/:?]
+	at University.service.JDBCImpl.StudentServiceImpl.updateStudent(StudentServiceImpl.java:25) ~[classes/:?]
+	at University.University.main(University.java:39) ~[classes/:?]
+2022-06-18 17:25:15 [main] INFO  University:25 - Student{id=1, firstname='Lucas', lastname='Cabeza', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-18 17:25:15 [main] INFO  University:29 - null
+2022-06-18 17:25:15 [main] ERROR StudentDAO:100 - There was a problem while doing the statement
+java.sql.SQLSyntaxErrorException: Table 'cristian_gomez_university.student' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1350) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:98) ~[classes/:?]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:14) ~[classes/:?]
+	at University.service.JDBCImpl.StudentServiceImpl.updateStudent(StudentServiceImpl.java:25) ~[classes/:?]
+	at University.University.main(University.java:39) ~[classes/:?]
+2022-06-18 17:26:21 [main] INFO  University:25 - Student{id=1, firstname='Lucas', lastname='Cabeza', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-18 17:26:21 [main] INFO  University:29 - null
+2022-06-18 17:26:21 [main] ERROR StudentDAO:100 - There was a problem while doing the statement
+java.sql.SQLSyntaxErrorException: Table 'cristian_gomez_university.student' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1350) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136) ~[commons-dbcp2-2.9.0.jar:2.9.0]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:98) ~[classes/:?]
+	at University.DAO.Impl.StudentDAO.updateEntity(StudentDAO.java:14) ~[classes/:?]
+	at University.service.JDBCImpl.StudentServiceImpl.updateStudent(StudentServiceImpl.java:25) ~[classes/:?]
+	at University.University.main(University.java:39) ~[classes/:?]
+2022-06-18 17:27:25 [main] INFO  University:25 - Student{id=1, firstname='Lucas', lastname='Cabeza', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-18 17:27:25 [main] INFO  University:29 - null
+2022-06-18 17:27:25 [main] INFO  University:40 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-18 17:27:25 [main] INFO  University:45 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-18 17:27:25 [main] INFO  University:54 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-18 17:27:25 [main] INFO  University:59 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}
