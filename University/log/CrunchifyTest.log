@@ -290,3 +290,30 @@ java.sql.SQLSyntaxErrorException: Table 'cristian_gomez_university.student' does
 2022-06-18 17:27:25 [main] INFO  University:45 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
 2022-06-18 17:27:25 [main] INFO  University:54 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
 2022-06-18 17:27:25 [main] INFO  University:59 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}
+2022-06-25 20:11:11 [main] INFO  University:25 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-25 20:11:11 [main] INFO  University:29 - null
+2022-06-25 20:11:11 [main] INFO  University:40 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-25 20:11:12 [main] INFO  University:45 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-25 20:11:12 [main] INFO  University:54 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-25 20:11:12 [main] INFO  University:59 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}
+2022-06-26 19:26:24 [main] INFO  University:26 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-26 19:26:24 [main] INFO  University:30 - null
+2022-06-26 19:26:24 [main] ERROR StudentDAO:70 - There was a problem while doing the statement
+2022-06-26 19:28:53 [main] INFO  University:26 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-26 19:28:53 [main] INFO  University:30 - null
+2022-06-26 19:28:53 [main] ERROR StudentDAO:70 - There was a problem while doing the statement
+2022-06-26 19:30:58 [main] INFO  University:26 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-26 19:30:58 [main] INFO  University:30 - null
+2022-06-26 19:30:58 [main] INFO  University:41 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-26 19:30:58 [main] INFO  University:46 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-26 19:30:59 [main] INFO  University:55 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-26 19:30:59 [main] INFO  University:60 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}
+2022-06-26 19:32:34 [main] INFO  University:26 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-26 19:32:34 [main] INFO  University:30 - null
+2022-06-26 19:32:34 [main] ERROR StudentDAO:70 - There was a problem while doing the statement
+2022-06-26 19:41:40 [main] INFO  University:26 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-26 19:41:40 [main] INFO  University:30 - null
+2022-06-26 19:41:40 [main] INFO  University:36 - Student{id=1, firstname='Lucas', lastname='Shloter', age=49, residence=null, intership=null, grant=null, exchange=null}
+2022-06-26 19:41:41 [main] INFO  University:41 - Teacher{id=1, firstname='Alexis', lastname='Cabeza', age=26}
+2022-06-26 19:41:41 [main] INFO  University:50 - [Student{id=2, firstname='Agustin', lastname='Cabeza', age=24, residence=Residence{id=1, name='Beta'}, intership=Intership{id=1, name='Secheep'}, grant=Grant{id=1, balance=10000}, exchange=Exchange{id=1, procedency='Taco Pozo'}}]
+2022-06-26 19:41:41 [main] INFO  University:55 - Dean{id=1, firstname='Ivan', lastname='Gonzalez', age=40}

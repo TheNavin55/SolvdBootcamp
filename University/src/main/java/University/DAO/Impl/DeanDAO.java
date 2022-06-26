@@ -56,12 +56,14 @@ public class DeanDAO extends AbstractDAO implements IDeanDAO {
     public void saveEntity(Dean entity) {
         PreparedStatement pr = null;
         Connection con = getConnection();
-        String firstName = entity.getFirstname();
-        String lastName = entity.getLastname();
-        int age = entity.getAge();
+
 
         try{
             pr = con.prepareStatement(INSERT);
+            pr.setString(1, entity.getFirstname());
+            pr.setString(2, entity.getLastname());
+            pr.setInt(3 , entity.getAge());
+            pr.setLong(4, entity.getId());
             pr.execute();
         } catch (SQLException e) {
             LOGGER.error("There was a problem while doing the statement");
@@ -84,12 +86,14 @@ public class DeanDAO extends AbstractDAO implements IDeanDAO {
     public void updateEntity(Dean entity){
         PreparedStatement pr = null;
         Connection con = getConnection();
-        String firstName = entity.getFirstname();
-        String lastName = entity.getLastname();
-        int age = entity.getAge();
+
 
         try{
             pr = con.prepareStatement(UPDATE);
+            pr.setString(1, entity.getFirstname());
+            pr.setString(2, entity.getLastname());
+            pr.setInt(3 , entity.getAge());
+            pr.setLong(4, entity.getId());
             pr.executeUpdate();
         } catch (SQLException e) {
             LOGGER.error("There was a problem while doing the statement", e);

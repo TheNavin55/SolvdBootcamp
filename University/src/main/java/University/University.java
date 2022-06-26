@@ -1,5 +1,6 @@
 package University;
 
+import University.DAO.Impl.DeanDAO;
 import University.bin.staff.Dean;
 import University.bin.staff.Teacher;
 import University.service.JDBCImpl.DeanServiceImpl;
@@ -28,11 +29,6 @@ public class University {
         Student student2 = studentService1.deleteStudent(2);
         LOGGER.info(student2);
 
-        /*StudentServiceImpl studentService2 = new StudentServiceImpl();
-        Student student3 = new Student(3,"Diego","Gonzalez",40);
-        studentService2.saveStudent(student3);
-        LOGGER.info(student3);
-         */
 
         student.setLastname("German");
         student.setLastname("Shloter");
@@ -57,5 +53,6 @@ public class University {
         DeanServiceImpl deanService = new DeanServiceImpl();
         Dean dean = deanService.getDean(1);
         LOGGER.info(dean);
+
     }
 }
