@@ -1,0 +1,43 @@
+[2022-06-28 12:16:46] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-28 12:16:46] [1] [INFO] TEST [carina-demo - DeleteUser] STARTED at [21:16:46 2022-06-27]
+[2022-06-28 12:16:50] [1] [INFO] Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/users/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 28 Jun 2022 00:16:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1656375457
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dbNtxhmlaHsNwaf%2FNKFVa5a069bCRIAsWWABNC0ysD4LlVD5Vq79K78NUZwNy8McO25HJvPuyZwZy%2BFcA%2BT%2FlGhGZ0FyCqF04wbozG%2FHgUAji6qHCQ%2F0uZsDtmxiMf3IetNKhS6o1Z7Q6h2N%2FTQF"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72223c6549f50992-MIA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    
+}
+
+[2022-06-28 12:16:50] [1] [INFO] TEST [carina-demo - DeleteUser] PASSED at [21:16:50 2022-06-27]

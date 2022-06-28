@@ -1,0 +1,73 @@
+[2022-06-28 12:19:49] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-28 12:19:49] [1] [INFO] TEST [carina-demo - GetWeatherByLatLon] STARTED at [21:19:49 2022-06-27]
+[2022-06-28 12:19:49] [1] [INFO] test
+[2022-06-28 12:19:51] [1] [INFO] Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?lat=-26.7908&lon=-60.4414&appid=cc2687aef6ecdd61045b1356d9ef8644
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Tue, 28 Jun 2022 00:19:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 532
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=-26.79&lon=-60.44
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -60.4414,
+        "lat": -26.7908
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 289.82,
+        "feels_like": 289.84,
+        "temp_min": 289.82,
+        "temp_max": 289.82,
+        "pressure": 1012,
+        "humidity": 88,
+        "sea_level": 1012,
+        "grnd_level": 1001
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.32,
+        "deg": 120,
+        "gust": 6.55
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1656375591,
+    "sys": {
+        "country": "AR",
+        "sunrise": 1656327052,
+        "sunset": 1656364715
+    },
+    "timezone": -10800,
+    "id": 3840300,
+    "name": "Presidencia Roque Sáenz Peña",
+    "cod": 200
+}
+
+[2022-06-28 12:19:51] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2022-06-28 12:19:51] [1] [INFO] Validation against Json schema successfully passed
+[2022-06-28 12:19:51] [1] [INFO] TEST [carina-demo - GetWeatherByLatLon] PASSED at [21:19:51 2022-06-27]

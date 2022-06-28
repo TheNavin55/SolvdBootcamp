@@ -1,0 +1,485 @@
+[2022-06-28 12:19:51] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-28 12:19:51] [1] [INFO] TEST [carina-demo - PostWeather] STARTED at [21:19:51 2022-06-27]
+[2022-06-28 12:19:51] [1] [INFO] test
+[2022-06-28 12:19:51] [1] [INFO] Base properties loaded: api/weather/weather.properties
+[2022-06-28 12:19:53] [1] [INFO] Request method:	POST
+Request URI:	https://api.openweathermap.org/data/2.5/weather?q=London&appid=cc2687aef6ecdd61045b1356d9ef8644
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "coord": {
+        "lon": -65.1789,
+        "lat": -26.7617
+    },
+    "weather": [
+        {
+            "id": 701,
+            "main": "Mist",
+            "description": "mist",
+            "icon": "50n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 281.85,
+        "feels_like": 285.76,
+        "temp_min": 280.85,
+        "temp_max": 286.85,
+        "pressure": 1014,
+        "humidity": 100
+    },
+    "visibility": 2000,
+    "wind": {
+        "speed": 5.6,
+        "deg": 300,
+        "gust": 4.35
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1656369186,
+    "sys": {
+        "type": 1,
+        "id": 8248,
+        "country": "AR",
+        "sunrise": 1656328185,
+        "sunset": 1656365856
+    },
+    "timezone": -10800,
+    "id": 3846135,
+    "name": "Los Gutiérrez",
+    "cod": 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Tue, 28 Jun 2022 00:19:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 475
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=london
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 285.39,
+        "feels_like": 284.78,
+        "temp_min": 282.47,
+        "temp_max": 287.04,
+        "pressure": 1020,
+        "humidity": 81
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.6,
+        "deg": 230
+    },
+    "clouds": {
+        "all": 65
+    },
+    "dt": 1656375547,
+    "sys": {
+        "type": 2,
+        "id": 2019646,
+        "country": "GB",
+        "sunrise": 1656387936,
+        "sunset": 1656447698
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+
+[2022-06-28 12:19:56] [1] [INFO] Request method:	POST
+Request URI:	https://api.openweathermap.org/data/2.5/weather?q=London&appid=cc2687aef6ecdd61045b1356d9ef8644
+Request params:	<none>
+Query params:	q=London
+				appid=cc2687aef6ecdd61045b1356d9ef8644
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "coord": {
+        "lon": -65.1789,
+        "lat": -26.7617
+    },
+    "weather": [
+        {
+            "id": 701,
+            "main": "Mist",
+            "description": "mist",
+            "icon": "50n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 281.85,
+        "feels_like": 285.76,
+        "temp_min": 280.85,
+        "temp_max": 286.85,
+        "pressure": 1014,
+        "humidity": 100
+    },
+    "visibility": 2000,
+    "wind": {
+        "speed": 5.6,
+        "deg": 300,
+        "gust": 4.35
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1656369186,
+    "sys": {
+        "type": 1,
+        "id": 8248,
+        "country": "AR",
+        "sunrise": 1656328185,
+        "sunset": 1656365856
+    },
+    "timezone": -10800,
+    "id": 3846135,
+    "name": "Los Gutiérrez",
+    "cod": 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Tue, 28 Jun 2022 00:19:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 475
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=london&q=london
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 285.39,
+        "feels_like": 284.78,
+        "temp_min": 282.47,
+        "temp_max": 287.04,
+        "pressure": 1020,
+        "humidity": 81
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.6,
+        "deg": 230
+    },
+    "clouds": {
+        "all": 69
+    },
+    "dt": 1656375416,
+    "sys": {
+        "type": 2,
+        "id": 2019646,
+        "country": "GB",
+        "sunrise": 1656387936,
+        "sunset": 1656447698
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+
+[2022-06-28 12:19:59] [1] [INFO] Request method:	POST
+Request URI:	https://api.openweathermap.org/data/2.5/weather?q=London&q=London&appid=cc2687aef6ecdd61045b1356d9ef8644&appid=cc2687aef6ecdd61045b1356d9ef8644
+Request params:	<none>
+Query params:	q=[London, London]
+				appid=[cc2687aef6ecdd61045b1356d9ef8644, cc2687aef6ecdd61045b1356d9ef8644]
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "coord": {
+        "lon": -65.1789,
+        "lat": -26.7617
+    },
+    "weather": [
+        {
+            "id": 701,
+            "main": "Mist",
+            "description": "mist",
+            "icon": "50n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 281.85,
+        "feels_like": 285.76,
+        "temp_min": 280.85,
+        "temp_max": 286.85,
+        "pressure": 1014,
+        "humidity": 100
+    },
+    "visibility": 2000,
+    "wind": {
+        "speed": 5.6,
+        "deg": 300,
+        "gust": 4.35
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1656369186,
+    "sys": {
+        "type": 1,
+        "id": 8248,
+        "country": "AR",
+        "sunrise": 1656328185,
+        "sunset": 1656365856
+    },
+    "timezone": -10800,
+    "id": 3846135,
+    "name": "Los Gutiérrez",
+    "cod": 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Tue, 28 Jun 2022 00:19:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 475
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=london&q=london&q=london
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 285.44,
+        "feels_like": 284.84,
+        "temp_min": 282.75,
+        "temp_max": 287.04,
+        "pressure": 1020,
+        "humidity": 81
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.6,
+        "deg": 230
+    },
+    "clouds": {
+        "all": 65
+    },
+    "dt": 1656375335,
+    "sys": {
+        "type": 2,
+        "id": 2019646,
+        "country": "GB",
+        "sunrise": 1656387936,
+        "sunset": 1656447698
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+
+[2022-06-28 12:20:02] [1] [INFO] Request method:	POST
+Request URI:	https://api.openweathermap.org/data/2.5/weather?q=London&q=London&q=London&appid=cc2687aef6ecdd61045b1356d9ef8644&appid=cc2687aef6ecdd61045b1356d9ef8644&appid=cc2687aef6ecdd61045b1356d9ef8644
+Request params:	<none>
+Query params:	q=[London, London, London]
+				appid=[cc2687aef6ecdd61045b1356d9ef8644, cc2687aef6ecdd61045b1356d9ef8644, cc2687aef6ecdd61045b1356d9ef8644]
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "coord": {
+        "lon": -65.1789,
+        "lat": -26.7617
+    },
+    "weather": [
+        {
+            "id": 701,
+            "main": "Mist",
+            "description": "mist",
+            "icon": "50n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 281.85,
+        "feels_like": 285.76,
+        "temp_min": 280.85,
+        "temp_max": 286.85,
+        "pressure": 1014,
+        "humidity": 100
+    },
+    "visibility": 2000,
+    "wind": {
+        "speed": 5.6,
+        "deg": 300,
+        "gust": 4.35
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1656369186,
+    "sys": {
+        "type": 1,
+        "id": 8248,
+        "country": "AR",
+        "sunrise": 1656328185,
+        "sunset": 1656365856
+    },
+    "timezone": -10800,
+    "id": 3846135,
+    "name": "Los Gutiérrez",
+    "cod": 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Tue, 28 Jun 2022 00:20:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 475
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=london&q=london&q=london&q=london
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 285.39,
+        "feels_like": 284.78,
+        "temp_min": 282.47,
+        "temp_max": 287.04,
+        "pressure": 1020,
+        "humidity": 81
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.6,
+        "deg": 230
+    },
+    "clouds": {
+        "all": 69
+    },
+    "dt": 1656375416,
+    "sys": {
+        "type": 2,
+        "id": 2019646,
+        "country": "GB",
+        "sunrise": 1656387936,
+        "sunset": 1656447698
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+
+[2022-06-28 12:20:02] [1] [ERROR] TEST [carina-demo - PostWeather] FAILED at [21:20:02 2022-06-27] - wind
+Expected: gust
+     but none found
+
+
+org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:482)
+org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:464)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2.validateResponse(AbstractApiMethodV2.java:284)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2.validateResponse(AbstractApiMethodV2.java:240)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2.validateResponse(AbstractApiMethodV2.java:312)
+com.qaprosoft.carina.demo.APITest.PostWeather(APITest.java:55)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:808)
+org.testng.TestRunner.run(TestRunner.java:603)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+org.testng.SuiteRunner.run(SuiteRunner.java:326)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+org.testng.TestNG.runSuites(TestNG.java:1092)
+org.testng.TestNG.run(TestNG.java:1060)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
