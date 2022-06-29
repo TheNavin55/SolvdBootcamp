@@ -1,0 +1,8 @@
+[2022-06-29 09:05:22] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-29 09:05:22] [1] [INFO] TEST [carina-demo - testCartPage] STARTED at [18:05:22 2022-06-29]
+[2022-06-29 09:05:22] [1] [INFO] Starting driver session...
+[2022-06-29 09:05:23] [1] [INFO] Driver session started.
+[2022-06-29 09:05:24] [1] [INFO] INFO: opening url 'https://www.demoblaze.com'
+[2022-06-29 09:05:25] [1] [INFO] INFO: url 'https://www.demoblaze.com' is opened.
+[2022-06-29 09:05:26] [1] [INFO] PASS: element 'cartLink' is clicked.
+[2022-06-29 09:05:27] [1] [INFO] TEST [carina-demo - testCartPage] PASSED at [18:05:27 2022-06-29]

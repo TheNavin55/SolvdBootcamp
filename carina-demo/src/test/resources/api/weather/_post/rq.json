@@ -23,7 +23,8 @@
   "visibility": 2000,
   "wind": {
     "speed": 5.6,
-    "deg": 300
+    "deg": 300,
+    "gust": 4.35
   },
   "clouds": {
     "all": 100

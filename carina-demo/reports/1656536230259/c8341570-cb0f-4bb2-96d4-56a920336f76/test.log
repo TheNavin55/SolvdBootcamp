@@ -1,0 +1,43 @@
+[2022-06-29 08:57:11] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-29 08:57:11] [1] [INFO] TEST [carina-demo - testProductSpecs] STARTED at [17:57:11 2022-06-29]
+[2022-06-29 08:57:11] [1] [INFO] Starting driver session...
+[2022-06-29 08:57:13] [1] [INFO] Driver session started.
+[2022-06-29 08:57:13] [1] [INFO] INFO: opening url 'https://www.demoblaze.com'
+[2022-06-29 08:57:14] [1] [INFO] INFO: url 'https://www.demoblaze.com' is opened.
+[2022-06-29 08:57:16] [1] [INFO] PASS: element 'productLink' is clicked.
+[2022-06-29 08:57:17] [1] [ERROR] TEST [carina-demo - testProductSpecs] FAILED at [17:57:17 2022-06-29] - The following asserts failed:
+	Invalid display info! expected [The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420
+ processor and it comes with 3GB of RAM. The phone packs 32GB of 
+internal storage cannot be expanded. ] but found [Product description
+The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage cannot be expanded.]
+
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+com.qaprosoft.carina.demo.WebTest.testProductSpecs(WebTest.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:808)
+org.testng.TestRunner.run(TestRunner.java:603)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+org.testng.SuiteRunner.run(SuiteRunner.java:326)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+org.testng.TestNG.runSuites(TestNG.java:1092)
+org.testng.TestNG.run(TestNG.java:1060)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
